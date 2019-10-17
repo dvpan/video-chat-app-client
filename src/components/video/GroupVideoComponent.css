@@ -1,0 +1,40 @@
+#video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video-container-control {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video-content {
+    display: flex;
+}
+
+.video-content__video-item {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.video-content__video-item_mirror {
+    width: 100px;
+    margin: 10px;
+    border: 2px solid #f04747;
+    border-radius: 10px;
+}
+
+.video-content__video-title {
+    margin: -10px 10px 0px 10px;
+    text-align: center;
+    position: relative;
+    bottom: 29px;
+    padding: 2px 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

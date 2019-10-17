@@ -1,0 +1,17 @@
+button {
+    padding: 10px 0 7px 0;
+    border: none;
+    border-radius: 8px;
+    background: #7289da;
+    width: 175px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.5s;  
+
+    cursor: pointer;
+}
+
+button[active=true] {
+    background: #f04747;
+}

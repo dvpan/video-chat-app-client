@@ -1,0 +1,79 @@
+#room-container {
+    height: 100vh;
+    background: #36393f;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 20px;
+}
+
+#room-content {
+    height: 90vh;
+    width: 80vw;
+    background: #2f3136;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+}
+
+#room-content>div {
+    margin: 10px;
+    background: #36393f;
+    border-radius: 10px;
+}
+
+#users-container {
+    font-size: 18px;
+    flex: 1;
+}
+
+#users-scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#users-container>h3 {
+    background: #202225;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+    margin: 0;
+}
+
+#users-scroll>div {
+    padding: 15px 30px;
+}
+
+#users-scroll>div:nth-child(2n) {
+    background: #4e5053;
+}
+
+#media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+
+    padding: 20px;
+}
+
+#messages-container {
+    overflow-y: auto;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+#message-input {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    background: #40444b;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+}

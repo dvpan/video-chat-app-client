@@ -1,0 +1,23 @@
+.message {
+    margin-bottom: 10px;
+}
+
+.message-header{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+
+    border-top: 1px solid #42454a;
+    padding-top: 10px;
+}
+
+.message-date{
+    color: #72767d;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.message-body{
+    color: #dadada;
+    font-size: 15px;
+}
